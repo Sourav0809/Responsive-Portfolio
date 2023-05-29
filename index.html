@@ -19,9 +19,9 @@
         <nav class="navitems">
             <a href="#" class="active">Home</a>
             <a class="about">About</a>
-            <a href="#">My Skills</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact Me</a>
+            <a class="myskill">My Skills</a>
+            <a class="project">Projects</a>
+            <a class="contact-me">Contact Me</a>
         </nav>
 
     </header>
@@ -64,25 +64,121 @@
         </div>
 
     </div>
+    <section class="my-skills-section-main">
+        <h3 class="my-skills-text">My Skills</h3>
+        <section class="my-skills-section">
+            <div class="skills-container">
+                <a href="#"><i class='bx bxl-react'></i></a>
+                <a href="#"><i class='bx bxl-bootstrap'></i></a>
+                <a href="#"><i class='bx bxl-css3'></i></a>
+                <a href="#"><i class='bx bxl-firebase'></i></a>
+                <a href="#"><i class='bx bxl-git'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-javascript'></i></a>
+                <a href="#"><i class='bx bxl-css3'></i></a>
+                <a href="#"><i class='bx bxl-firebase'></i></a>
+                <a href="#"><i class='bx bxl-git'></i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-javascript'></i></a>
+            </div>
+        </section>
 
+    </section>
     <!-- my skills section design -->
-    <h3 class="my-skills-text">My Skills</h3>
-    <section class="my-skills-section">
-        <div class="skills-container">
-            <a href="#"><i class='bx bxl-react'></i></a>
-            <a href="#"><i class='bx bxl-bootstrap'></i></a>
-            <a href="#"><i class='bx bxl-css3'></i></a>
-            <a href="#"><i class='bx bxl-firebase'></i></a>
-            <a href="#"><i class='bx bxl-git'></i></a>
-            <a href="#"><i class='bx bxl-github'></i></a>
-            <a href="#"><i class='bx bxl-javascript'></i></a>
-            <a href="#"><i class='bx bxl-css3'></i></a>
-            <a href="#"><i class='bx bxl-firebase'></i></a>
-            <a href="#"><i class='bx bxl-git'></i></a>
-            <a href="#"><i class='bx bxl-github'></i></a>
-            <a href="#"><i class='bx bxl-javascript'></i></a>
+
+    <!-- project section  -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading"> Latest <span class="about-me-span">Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="/mailbox project.png" alt="mailbox Client" srcset="">
+                <div class="portfolio-layer">
+                    <h4> MailBox Client</h4>
+                    <p>Integrated react-draft editor for composing new email.</p>
+                    <p>User can see all the mails they have sent and
+                        received.</p>
+                    <p>Emails can be deleted & can be restored</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="/expnecee tracker project.png" alt="Expence Tracker" srcset="">
+                <div class="portfolio-layer">
+                    <h4>Expence Tracker</h4>
+                    <p>Implemented ChartJS library to show expenses visually</p>
+                    <p>Integrated firebase for database authentication</p>
+                    <p>User will be able to retrieve all of his/her data
+                        even after a month or year</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="/twitter clone.png" alt="mailbox Client" srcset="">
+                <div class="portfolio-layer">
+                    <h4>Twitter Clone</h4>
+                    <p>User can search any keyword ,data will come form twitter</p>
+                    <p>Used twitter's official developer api to get data</p>
+                    <p>created with html css and js</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="/ecomerce project.png" alt="mailbox Client" srcset="">
+                <div class="portfolio-layer">
+                    <h4>Ecommerse App</h4>
+                    <p>Used Google's firebase for user authentication,
+                        data storage and hosting</p>
+                    <p>Added page protection to prevent any
+                        unauthorized access to the page</p>
+                    <p>User can add the product to cart and purchase it
+                        or remove it from the cart.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
         </div>
     </section>
+    <!-- contact me section -->
+    <h3 class="contact-me-heading scrool">Contact <span class="about-me-span">Me</span></h3>
+    <section class="contactMe">
+        <div class="contact-me-img">
+            <img src="/ABout me img.png" alt="About Me" srcset="">
+        </div>
+        <div class="contact-me-form">
+
+            <form action="#" class="main-form">
+                <div class="main-form-div">
+
+                    <div class="input-name">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="name" placeholder="Enter Your Name" name="name" id="name" class="form-input">
+                    </div>
+
+                    <div class="input-email">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="text" name="email" id="email" placeholder="Enter Your Email" class="form-input">
+                    </div>
+                    <div class="input-mobile">
+                        <label for="Phone" class="form-label">Phone</label>
+                        <input type="text" name="email" id="email" placeholder="Enter Your Email" class="form-input">
+
+                    </div>
+                    <div class="form-text">
+                        <textarea id="form-text-area" name="formtextarea" rows="4" cols="50"
+                            class="form-input"></textarea>
+                        <input type="button" value="Submit" class="submit-btn">
+                    </div>
+                </div>
+
+
+            </form>
+
+        </div>
+    </section>
+
+    <footer>
+        <h3>Copyright © 2023 Sourav Pathak</h3>
+    </footer>
 
 </body>
 
