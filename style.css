@@ -518,9 +518,9 @@ footer {
 
 
     #blob {
-        height: 400px;
-        width: 300px;
-        margin-left: 2rem;
+        height: 80vh;
+        width: 100vw;
+        margin-left: 4rem;
         padding: 0;
         margin-top: 2rem;
     }
